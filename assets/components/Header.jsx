@@ -12,7 +12,7 @@ function Header() {
                 </div>
                 <nav>
                     <ul>
-                        <li><Link className="navlink" activeClassName="link-active" href={"/"}>About Me</Link></li>
+                        <li><Link className="navlink" activeClassName="link-active" href={"/"}>About Us</Link></li>
                         <li><Link className="navlink" activeClassName="link-active" href={"/portfolio"}>Portfolio</Link></li>
                         <li><Link className="navlink" activeClassName="link-active" href={"/skills"}>Skills</Link></li>
                         <li><Link className="navlink" activeClassName="link-active" href={"/team"}>Team</Link></li>

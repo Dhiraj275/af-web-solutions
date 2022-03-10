@@ -45,27 +45,27 @@ function Contact() {
                     <div className="heading"><h3>Direct Contact</h3></div>
                     <div className="direct-contact">
                         <div className="icons">
-                            <a target="_blank" rel="noreferrer" href="tel:+919727085342"><div className="icon"><i className="fa fa-phone"></i></div></a>
+                            <a target="_blank" rel="noreferrer" href="tel:+9999999999"><div className="icon"><i className="fa fa-phone"></i></div></a>
                         </div>
                         <div className="icons ">
-                            <a target="_blank" rel="noreferrer" href="http://wa.me/+919727085342?text=I want to *hire you*">
+                            <a target="_blank" rel="noreferrer" href="http://wa.me/+9999999999?text=I want to *hire you*">
                                 <div className="icon whatsapp"><i className="fa-brands fa-whatsapp"></i></div>
                             </a>
                         </div>
                         <div className="icons">
-                            <a target="_blank" rel="noreferrer" href="sms:+919727085342"> <div className="icon"><i className="fa fa-comment"></i></div></a>
+                            <a target="_blank" rel="noreferrer" href="sms:+9999999999"> <div className="icon"><i className="fa fa-comment"></i></div></a>
                         </div>
                     </div>
                     <div className="heading"><h3>Follow Me ON</h3></div>
                     <div className="direct-contact">
                         <div className="icons">
-                            <a target="_blank" rel="noreferrer" href="http://www.instagram.com/dhruvloper"><div className="icon instagram"><i className="fa-brands fa-instagram"></i></div></a>
+                            <a target="_blank" rel="noreferrer" href="http://www.instagram.com/"><div className="icon instagram"><i className="fa-brands fa-instagram"></i></div></a>
                         </div>
                         <div className="icons ">
-                            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/dhiraj.prajapati.7146"> <div className="icon facebook"><i className="fa-brands fa-facebook"></i></div></a>
+                            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/"> <div className="icon facebook"><i className="fa-brands fa-facebook"></i></div></a>
                         </div>
                         <div className="icons">
-                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/dhruv-prajapati-031b6a216/"><div className="icon linkedin"><i className="fa-brands fa-linkedin"></i></div>
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/"><div className="icon linkedin"><i className="fa-brands fa-linkedin"></i></div>
                             </a>
                         </div>
                     </div>
