@@ -30,7 +30,7 @@ function PortfolioPage() {
                             portfolioData.map((val, ind) => {
                                 return <Portfoliocard
                                 portfolioData={val}
-                                   key={index}
+                                key={ind}
                                 />
                             })
                         }

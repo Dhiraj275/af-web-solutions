@@ -411,7 +411,7 @@ body, html {
   margin: 20px;
 }
 
-.view-all-btn {
+.view-all a {
   background: var(--themeColor);
   color: #fff;
   border-radius: 20px;
@@ -422,7 +422,7 @@ body, html {
 
 }
 
-.view-all-btn:hover {
+.view-all a:hover {
   background: white;
   color: var(--themeColor);
 }

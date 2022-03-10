@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Swal from 'sweetalert2';
 import firebase from './firebase';
-import emailjs from '@emailjs/browser';
-
 function Contact() {
     const [formData, setFormData] = useState({
         name: '',
@@ -10,25 +8,18 @@ function Contact() {
         email: '',
         message: '',
     })
-    const submitForm = (e) => {
-        e.preventDefault()
-        if (formData.name !== "", formData.email === "", formData.message === "", formData.phoneNo === "") {
+    const submitForm = () => {
+       
+        if (formData.name!=="", formData.email==="", formData.message==="", formData.phoneNo==="") {
             Swal.fire('All field are required', '', 'warning')
-        }
-        let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
+         }
+         let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
         if (reg.test(formData.email) === false) {
-            Swal.fire('Email is in valid', '', 'warning')
+           Swal.fire('Email is in valid', '', 'warning')
         }
-        if (reg.test(formData.email) === true && formData.name !== "" && formData.email !== "" && formData.message !== "" && formData.phoneNo !== "") {
-            emailjs.sendForm('service_4ur89oj', 'template_q313rsw', e.target, '_rJlGUKsCQGwNslcb').then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-            firebase.database().ref('contact-form').push(formData).then(() => {
-
+        if(reg.test(formData.email) === true && formData.name!=="" && formData.email!=="" && formData.message!=="" && formData.phoneNo!==""){
+            firebase.database().ref('contact-form').push(formData).then(()=>{
                 Swal.fire("The Message Sent Successfully", 'We Will Reply You As Soon As Possible', 'success')
-
             })
         }
     }
@@ -37,24 +28,16 @@ function Contact() {
             <div className="row">
                 <div className="col-lg-6 px-lg-5 px-0">
                     <div className="heading"><h3>Contact Us</h3></div>
-                    <form onSubmit={submitForm} className="form">
+                    <form action="/" className="form">
                         <label>Name/Full Name:</label>
-                        <input required name="name"
-                            value={formData.name} onChange={(event) => { setFormData({ ...formData, name: event.target.value }) }}
-                            className="control-form" type="text" />
+                        <input required value={formData.name} onChange={(event)=>{setFormData({...formData, name: event.target.value})}} className="control-form" type="text" name="text" />
                         <label>Phone Number:</label>
-                        <input required name="phoneNo"
-                            value={formData.phoneNo} onChange={(event) => { setFormData({ ...formData, phoneNo: event.target.value }) }}
-                            className="control-form" type="number" />
+                        <input required value={formData.phoneNo} onChange={(event)=>{setFormData({...formData, phoneNo: event.target.value})}} className="control-form" type="number" name="text" />
                         <label>Email:</label>
-                        <input required name="email"
-                            value={formData.email} onChange={(event) => { setFormData({ ...formData, email: event.target.value }) }}
-                            className="control-form" type="email" />
+                        <input required value={formData.email} onChange={(event)=>{setFormData({...formData, email: event.target.value})}} className="control-form" type="email" name="text" />
                         <label>Message:</label>
-                        <textarea required name="message"
-                            value={formData.message} onChange={(event) => { setFormData({ ...formData, message: event.target.value }) }}
-                            id="" cols="2" rows="2"></textarea>
-                        <input type="submit" value="submit" className="submit-btn" />
+                        <textarea required value={formData.message} onChange={(event)=>{setFormData({...formData, message: event.target.value})}} id="" cols="2" rows="2"></textarea>
+                        <button type="button" onClick={submitForm} className="submit-btn">Submit</button>
                     </form>
 
                 </div>

@@ -1,0 +1,58 @@
+@media(max-width:911px){
+    .navbar{
+      padding: 10px;
+    }
+    .navbar nav ul{
+      display: none;
+    }
+    .aboutPage .first .left{
+      width: 100%;
+      height: 40%;
+    }
+    .aboutPage .first{
+      width: 100vw;
+    }
+    .aboutPage .first .left .circle-1{
+      height: 220px;
+      width: 220px;
+      top: 100%;
+      left: 50%;
+    }
+    .aboutPage .first .right{
+      left: 0;
+      width: 100%;
+    }
+    .aboutPage .first .right .text{
+      margin-left:0px;
+      z-index: 10;
+     position: relative;
+     margin-top: 300px;
+     text-align: center;
+    }
+    .aboutPage .testimonial-card {
+      margin: 10px 30px;
+      padding: 30px 10px;
+    }
+    .aboutPage .first .right .text h1{
+      font-size: 44px;
+    }
+    .aboutPage .first .right .social p{
+      margin: 40px -20px;
+    }
+    .aboutPage .first .right .social{
+      top: 65%;
+    }
+    .aboutPage .first .right .social i{
+      margin: 18px 0px;
+    }
+    .aboutPage .first .right .intro{
+      margin: 20px 0px;
+      justify-content: center;
+    }
+    .aboutPage .second .cards{
+      margin: 22px;
+    }
+    .aboutPage .fifth .pricing-card{
+      margin: 20px 0px;
+    }
+  }

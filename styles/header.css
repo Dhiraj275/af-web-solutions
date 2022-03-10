@@ -22,11 +22,10 @@
 
 .navbar ul {
   display: flex;
-  margin: 0%;
-  padding: 0;
   height: var(--navHeight);
   line-height: var(--navHeight);
   list-style: none;
+  margin: 0; padding: 0;
 }
 
 .navbar .toggle-menu {
@@ -43,10 +42,7 @@
   font-size: 24px;
 }
 
-.navbar .logo {
-  line-height: var(--navHeight);
-  height: var(--navHeight);
-}
+
 
 .navbar ul li a {
   display: block;
@@ -59,8 +55,8 @@
 .navbar ul li a:hover {
   color: var(--themeColor);
 }
-@media (max-width: 781px) {
+@media (max-width:711px) {
   .navbar{
-    padding: 0 10px!important;
+    padding: 0 20px!important ;
   }
 }
