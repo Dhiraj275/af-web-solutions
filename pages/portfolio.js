@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Portfoliocard from '../assets/components/Portfoliocard'
 import firebase from '../assets/components/firebase'
 import Header from '../assets/components/Header'
+import Head from 'next/head'
 function PortfolioPage() {
 
     const [portfolioData, setPortfolioData]= useState([])
@@ -19,6 +20,9 @@ function PortfolioPage() {
             <>
             <Header/>
             <div className="other-page">
+            <Head>
+                <title>Cover All Web Solutions | Portfolio</title>
+            </Head>
             <div className="third">
                 <div className="heading text-center">
                     <h3>My Portfolio</h3>

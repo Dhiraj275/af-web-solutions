@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import Header from '../assets/components/Header'
 import TeamCard from '../assets/components/TeamCard'
@@ -7,9 +8,12 @@ function TeamPage() {
         <>
         <Header />
             <div className="other-page">
+            <Head>
+                <title>Cover All Web Solutions | Team</title>
+            </Head>
                 <div className="team container">
                     <div className="heading my-5 text-center" style={{ fontFamily: "MyWebFont" }}>
-                        <h3>Meat My Team</h3>
+                        <h3>Meet Our Team</h3>
                     </div>
                     <div className="row">
                         {
