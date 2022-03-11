@@ -1,7 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import $ from 'jquery'
 function Header() {
     function show(){
+        // console.log( $('html').css('overflow'))
+        if($('html').css('overflow-y')!== 'hidden'){
+            $('html').css('overflow', 'hidden')
+        }
+        else{
+            $('html').css('overflow-y', 'auto')
+        }
         $('.navbar').toggleClass('active')
     }  
     return (
@@ -19,15 +27,15 @@ function Header() {
                         <li><Link className="navlink" activeClassName="link-active" href={"/contact"}>Contact Us</Link></li>
                     </ul>
                 </nav>
-            <div className="toggle-menu" onClick={show}>
-                <i className="bars"></i>
+                <div className="toggle-menu" onClick={show} >
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
-            </div>
-        </header>   
-         
-        )
-    
-        
+        </header>
+
+    )
+
+
 }
 
 export default Header

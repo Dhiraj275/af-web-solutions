@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import firebase from '../assets/components/firebase'
 import Portfolio from '../assets/components/Portfolio'
 import Contact from '../assets/components/Contact'
@@ -7,7 +8,10 @@ import Header from '../assets/components/Header'
 import Link from 'next/link'
 function Index() {
     return (
-        <div className="about-page">
+        <div className="other-page">
+            <Head>
+                <title>Cover All Web Solutions | About Us</title>
+            </Head>
             <Header />
 
             <div className="first">
@@ -33,9 +37,9 @@ function Index() {
                         <div className="social">
                             <p>Follow me on:</p>
                             <div></div>
-                            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/dhiraj.prajapati.7146"><i className="fa-brands fa-facebook"></i></a>
-                            <a rel="noreferrer" target="_blank" href="http://www.instgram.com/dhruvloper"> <i className="fa-brands fa-instagram"></i></a>
-                            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/dhruv-prajapati-031b6a216/"><i className="fa-brands fa-linkedin"></i></a>
+                            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/"><i className="fa-brands fa-facebook"></i></a>
+                            <a rel="noreferrer" target="_blank" href="http://www.instgram.com/"> <i className="fa-brands fa-instagram"></i></a>
+                            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/"><i className="fa-brands fa-linkedin"></i></a>
 
                         </div>
                     </div>
