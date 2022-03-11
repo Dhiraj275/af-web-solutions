@@ -90,9 +90,11 @@
     height: 100vh;
     left: 0;
     background-color: rgba(0,0,0, 0);
+    display: none;
   }
   .navbar.active nav{
     background-color: rgba(0,0,0, .7);
+    display: block;
   }
   .navbar.active nav ul{
     right: 0%;
