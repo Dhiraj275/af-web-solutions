@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import Contact from '../assets/components/Contact'
 import Header from '../assets/components/Header'
