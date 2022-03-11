@@ -6,7 +6,11 @@ import Contact from '../assets/components/Contact'
 import Image from 'next/image'
 import Header from '../assets/components/Header'
 import Link from 'next/link'
+import $ from 'jquery'
 function Index() {
+    ()=>{
+        $('html').css('overflow-y', 'auto')
+      }
     return (
         <div className="other-page">
             <Head>
@@ -50,7 +54,7 @@ function Index() {
             </div>
             <div className="blue-line-horizontal"></div>
             <div className="blue-line-horizontal"></div>
-            <div onClick={() => { firebase.database().ref('portfolio').push({ hello: 'motherfucker' }) }} className="third">
+            <div className="third">
                 <Portfolio />
                 <div className="view-all">
                     <Link href="/portfolio" className="view-all-btn">View All</Link>

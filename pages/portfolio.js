@@ -3,8 +3,11 @@ import Portfoliocard from '../assets/components/Portfoliocard'
 import firebase from '../assets/components/firebase'
 import Header from '../assets/components/Header'
 import Head from 'next/head'
+import $ from 'jquery'
 function PortfolioPage() {
-
+    ()=>{
+        $('html').css('overflow-y', 'auto')
+      }
     const [portfolioData, setPortfolioData]= useState([])
     useEffect(()=>{
         firebase.database().ref('portfolio/').on(("value"), (snapshot)=>{
@@ -33,7 +36,7 @@ function PortfolioPage() {
                         {
                             portfolioData.map((val, ind) => {
                                 return <Portfoliocard
-                                portfolioData={val}
+                                portfolioData={{...val, index:ind}}
                                 key={ind}
                                 />
                             })
