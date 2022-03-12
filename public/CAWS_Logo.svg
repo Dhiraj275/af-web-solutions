@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <clipPath id="clip-CAWS_Logo">
+      <rect width="2000" height="2000"/>
+    </clipPath>
+  </defs>
+  <g id="CAWS_Logo" data-name="CAWS Logo" clip-path="url(#clip-CAWS_Logo)">
+    <rect width="2000" height="2000" fill="#fecb00"/>
+    <g id="Lettes" transform="translate(-101 -94)">
+      <text id="C" transform="translate(256 1435)" font-size="823" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">C</tspan></text>
+      <text id="A" transform="translate(652 1435)" font-size="823" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+      <text id="W" transform="translate(905 1435)" font-size="823" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">W</tspan></text>
+      <text id="S" transform="translate(1510 1434)" stroke="#000" stroke-width="1" font-size="822" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">S</tspan></text>
+      <text id="Cover_All_Web_Solutions" data-name="Cover All Web Solutions" transform="translate(549 1682)" stroke="#000" stroke-width="1" font-size="101" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Cover All Web Solutions</tspan></text>
+    </g>
+    <g id="The_Line" data-name="The Line" transform="translate(0 -12)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1438" height="14" rx="7" transform="translate(281 1420)"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="13" cy="13" r="13" transform="translate(1694 1414)"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="13" cy="13" r="13" transform="translate(281 1414)"/>
+      <g id="language_black_24dp" transform="translate(960 1388.483)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="42" cy="42" r="42" transform="translate(-2 -3.483)" fill="#fecb00"/>
+        <path id="Path_1" data-name="Path 1" d="M0,0H79.281V77.033H0Z" fill="rgba(0,0,0,0)"/>
+        <path id="Path_2" data-name="Path 2" d="M39.6,2C18.825,2,2,18.359,2,38.517S18.825,75.033,39.6,75.033c20.815,0,37.678-16.359,37.678-36.517S60.418,2,39.6,2ZM65.687,23.91h-11.1a56.13,56.13,0,0,0-5.194-13A30.038,30.038,0,0,1,65.687,23.91ZM39.64,9.449A50.8,50.8,0,0,1,46.83,23.91H32.451A50.8,50.8,0,0,1,39.64,9.449ZM10.507,45.82a29.25,29.25,0,0,1-.979-7.3,29.25,29.25,0,0,1,.979-7.3H23.229a58.538,58.538,0,0,0-.527,7.3,58.538,58.538,0,0,0,.527,7.3Zm3.087,7.3H24.7a56.129,56.129,0,0,0,5.194,13,29.878,29.878,0,0,1-16.3-13ZM24.7,23.91h-11.1a29.878,29.878,0,0,1,16.3-13A56.13,56.13,0,0,0,24.7,23.91ZM39.64,67.584a50.8,50.8,0,0,1-7.189-14.461H46.83A50.8,50.8,0,0,1,39.64,67.584ZM48.448,45.82H30.832a52.157,52.157,0,0,1-.6-7.3,51.7,51.7,0,0,1,.6-7.3H48.448a51.7,51.7,0,0,1,.6,7.3A52.157,52.157,0,0,1,48.448,45.82Zm.941,20.3a56.13,56.13,0,0,0,5.194-13h11.1A30.038,30.038,0,0,1,49.389,66.123Zm6.662-20.3a58.538,58.538,0,0,0,.527-7.3,58.538,58.538,0,0,0-.527-7.3H68.774a29.25,29.25,0,0,1,.979,7.3,29.25,29.25,0,0,1-.979,7.3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

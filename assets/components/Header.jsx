@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
+import $ from 'jquery'
 function Header() {
     function show(){
+        
         $('.navbar').toggleClass('active')
     }  
     return (
@@ -19,15 +21,15 @@ function Header() {
                         <li><Link className="navlink" activeClassName="link-active" href={"/contact"}>Contact Us</Link></li>
                     </ul>
                 </nav>
-            <div className="toggle-menu" onClick={show}>
-                <i className="bars"></i>
+                <div className="toggle-menu" onClick={show} >
+                    <i className="fa-solid fa-bars"></i>
+                </div>
             </div>
-            </div>
-        </header>   
-         
-        )
-    
-        
+        </header>
+
+    )
+
+
 }
 
 export default Header
