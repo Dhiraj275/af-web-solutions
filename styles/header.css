@@ -58,6 +58,9 @@
 }
 
 @media (max-width:711px) {
+  .other-page{
+    padding-top: 40px;
+  }
   .navbar {
     position: fixed!important;
     top: 0;
@@ -102,13 +105,11 @@
   .navbar nav ul {
     position: absolute;
     display: block;
-    width: 100%;
-    transition: 0.4s;
-    right: -100%;
+    transition: 4s;
+    right: 0%;
     height: 100vh;
     background-color: #fff;
     width: 70%;
-
   }
 
   .navbar nav ul li {
