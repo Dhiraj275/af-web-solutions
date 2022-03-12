@@ -7,6 +7,7 @@ import Head from 'next/head'
 function MyApp({ Component, pageProps }) {
   return <>
     <Head>
+      <meta name="keywords" content="Cover All Web Solutions, Cover All, coverallwebsolutions, cover all web, coverall, coverallweb.in, coverall.in, cover all solutions" />
       <meta name="google-site-verification" content="atvxsQuLP4Lz-yso578GWX3uNwvch15-_3qNoMaXocI" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
