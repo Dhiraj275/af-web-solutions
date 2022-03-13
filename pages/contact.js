@@ -10,7 +10,7 @@ function ContactPage() {
     return (
         <div className="other-page">
             <Head>
-                <title>Cover All Web Solutions | Contact Us</title>
+                <title>Contact Us | Cover All Web Solutions</title>
             </Head>
             <Header />
             <Contact />

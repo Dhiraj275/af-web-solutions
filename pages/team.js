@@ -9,7 +9,7 @@ function TeamPage() {
         <Header />
             <div className="other-page">
             <Head>
-                <title>Cover All Web Solutions | Team</title>
+                <title>Team | Cover All Web Solutions</title>
             </Head>
                 <div className="team container">
                     <div className="heading my-5 text-center" style={{ fontFamily: "MyWebFont" }}>

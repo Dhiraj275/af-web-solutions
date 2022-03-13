@@ -24,7 +24,7 @@ function PortfolioPage() {
             <Header/>
             <div className="other-page">
             <Head>
-                <title>Cover All Web Solutions | Portfolio</title>
+                <title>Portfolio | Cover All Web Solutions</title>
             </Head>
             <div className="third">
                 <div className="heading text-center">

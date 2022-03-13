@@ -14,7 +14,7 @@ function Index() {
     return (
         <div className="other-page">
             <Head>
-                <title>Cover All Web Solutions | About Us</title>
+                <title>About Us | Cover All Web Solutions</title>
             </Head>
             <Header />
 
