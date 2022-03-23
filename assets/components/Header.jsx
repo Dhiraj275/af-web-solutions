@@ -10,7 +10,8 @@ function Header() {
         <header>
             <div className="navbar">
                 <div className="logo">
-                    <Link className="logo-link" href={"/"}>Cover All Web Solutions</Link>
+                    <img src='/images/logo3.png' />
+                    <Link className="logo-link" href={"/"}>  Cover All Web Solutions</Link>
                 </div>
                 <nav>
                     <ul>

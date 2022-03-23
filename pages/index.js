@@ -22,14 +22,14 @@ function Index() {
                 <div className="left">
                     <div className="circle-1">
                         <div className="circle-2">
-                            <img src="/images/logo.jpg" alt="" />
+                            <img src="/images/logo3.png" alt="" />
                         </div>
                     </div>
                 </div>
                 <div className="right">
                     <div>
                         <div className="text">
-                            <h1>Our <span> WORKS</span></h1>
+                            <h1>Cover <span> All</span></h1>
                             <p>Web Development &amp; Mobile Development</p>
                         </div>
                         <div className="intro">

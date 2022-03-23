@@ -17,8 +17,8 @@ function Portfolio() {
         <>
             <div className="third">
                 <div className="heading text-center">
-                    <h3>My Portfolio</h3>
-                    <p>Web Developer</p>
+                    <h3>Our Portfolio</h3>
+                    <br />
                 </div>
                 <div className="portfolio-body">
                     <div className="card-container">
